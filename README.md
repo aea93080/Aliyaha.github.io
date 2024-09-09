@@ -4,4 +4,4 @@ Thank you so much for visiting!!
 
 # My Stuff
 
-[Exercise 2](exercises\Box\index.html)
+[Exercise 2](exercises/Box/index.html)
