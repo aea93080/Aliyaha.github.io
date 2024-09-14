@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 2: Cool Boxes</title>
+</head>
+<Style>
+#wrapper {
+    width: 200px;
+    height: 200px;
+    border: 10px;
+    position: fixed;
+    padding: 200px;
+    border-style:solid; color: rgb(141, 141, 141);
+    margin: 10px; auto;
+    }
+
+#boxa {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    z-index: 0;
+
+}
+#boxb {
+    width: 200px;
+    height: 200px;
+    background-color: limegreen;
+    position: fixed;
+    top: 200px;
+    left: 200px;
+    
+}
+#boxc {
+width: 200px;
+height: 200px;
+background-color: blue;
+position: relative;
+top: 300px;
+left: 300px;
+z-index: 1;
+}
+</Style>
+<body>
+    <div id="wrapper"></div>
+    <div id="boxa"></div>
+    <div id="boxb"></div>
+    <div id="boxc"></div>
+</body>
+</html>
