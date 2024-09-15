@@ -1,0 +1,50 @@
+body{  
+    display: flex;
+    row-gap: 190px;
+    border: solid 8px rgb(255, 255, 255);
+    min-height: 9264px;
+    max-width: 1280px;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin-left: 320px;
+    margin-right: 320px;
+    
+}
+
+.box{
+    height: 500px;
+    width: 800px;
+    background-color: aquamarine;
+    font-size: 20pt;
+}
+
+.textbox{
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: left;
+ }
+
+.box2{
+    height: 373px;
+    width: 1280px;
+    background-color: aquamarine;
+    font-size: 20pt;
+    
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    width: 1280px;
+    padding: 10px 10px;
+    background: #ffbfbf;
+    color: #000000;
+    z-index: 10;
+  }
+
+  .hershey{
+    row-gap: 0px;
+  }
+  
