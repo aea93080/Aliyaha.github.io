@@ -35,4 +35,6 @@ nav a{
 
      }
 
-     
+     .active{
+        background: #a6a7f8;
+         }    

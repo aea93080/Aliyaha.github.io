@@ -28,9 +28,22 @@ nav a{
     background-color: hsl(143, 100%, 69%); }
 
 
-    img{
+img{
         width: 50%;
         height: auto; }
 
         html {
             scroll-behavior: smooth; }
+
+#list{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0f3a0f;
+}
+
+#list>ul{
+    font-weight: bold;
+}
+
+.active{
+    background: #a6a7f8;
+}

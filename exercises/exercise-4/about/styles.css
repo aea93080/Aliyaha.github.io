@@ -35,3 +35,7 @@ nav a{
 
         html {
             scroll-behavior: smooth; }
+
+.active{
+background: #a6a7f8;
+ }
