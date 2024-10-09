@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Make a Choice</title>
+   <link rel="stylesheet" href="styles.css">
+
+
+  </head>
+<!-- Nothing in here weirdo!!!!-->
+  <body>
+
+<!--Navigation beginning-->
+<button id="toggle-nav" type="button">&#9776;</button>
+<nav id="primary-nav" role="navigation">
+<div id="nav-open">
+    <li>
+        <ul>
+            <a href="#">THERE</a></li>
+           <a href="#">IS</a>
+           <a href="#">NOWHERE</a></li>
+           <a href="#">TO</a></li>
+           <a href="#">HIDE</a></li>
+
+        </ul>
+    </li>
+</div></nav>
+<!--Navigation End-->
+
+<main>
+    <button id="button1">Reality</button>
+    or
+    <button id="button2">Fiction</button>
+
+    <div class="pills">
+    <div id="redpill" title="red pill">
+    <img id="redimg" src="images/red.jpg" alt="red pill">
+    </div>
+
+    <div id="bluepill" title="blue pill">
+        <img id="blueimg" src="images/blue.png" alt="blue pill">
+    </div>
+    </div></main>
+
+    <script>
+      // This is JavaScript//
+const myImg = document.getElementById("redimg");
+const myButton = document.getElementById("button1");
+
+myButton.addEventListener("click", function() {
+  myImg.src = "images/joker.jpg";
+});
+
+const myImg2 = document.getElementById("blueimg");
+const myButton2 = document.getElementById("button2");
+
+myButton2.addEventListener("click", function() {
+  myImg2.src = "images/puppy.jpg";
+});
+
+window.onload = () => {
+        const toggleNav = document.getElementById("toggle-nav");
+        toggleNav.innerHTML = "&#9776;";
+
+        toggleNav.addEventListener("click", () => {
+          document.body.classList.toggle("nav-open");
+          toggleNav.innerHTML = document.body.classList.contains("nav-open")
+            ? "&#x2715;"
+            : "&#9776;";
+        });
+    };
+ // This is JavaScript//
+    </script>
+    
+  </body>
+</html>

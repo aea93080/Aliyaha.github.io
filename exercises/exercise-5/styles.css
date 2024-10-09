@@ -1,0 +1,95 @@
+main{
+    background-color: rgb(204, 244, 236);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+    /*Navigation*/
+    #toggle-nav {
+        display: none;
+        position: absolute;
+        right: 20px;
+        top: 20px;}
+     
+
+    #primary-nav{
+        background-color: rgb(195, 202, 254);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        width: 100%;
+        height: 50px;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 20px;
+}
+
+#primary-nav{
+    list-style: none;
+}
+
+body.nav-open #primary-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+  }
+/*Navigation*/
+
+
+    /*Pills*/
+      #redpill {
+        max-width: 100%;
+      }
+
+      #bluepill{
+      max-width: 100%;
+        margin-left: 20px;
+            }
+
+    .pills{
+        margin-top: 50px;
+display: flex;
+    }
+    /*Pills*/
+
+
+/*Buttons*/
+#button1{
+position: relative;
+background-color: rgb(255, 0, 0);
+width: 100px;
+height: 100px;
+color: aliceblue;
+font-size: large;
+}
+#button2{
+    position: relative;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    color: aliceblue;
+    font-size: large;
+}
+
+ /*Buttons*/
+
+ @media screen and (max-width:1140px) {
+    main{
+        background-color: bisque;
+    }
+    #toggle-nav {
+        display: block;}
+    #primary-nav{
+        list-style: none;
+        display: none;
+        grid-template-rows: 0fr; grid-template-rows: 5s ease-out;}
+        #bluepill{
+              margin-left: 0;
+                  }
+.pills{
+    display: flex;
+    flex-direction: column;
+   
+}
+.pills img{
+   position: relative;
+   max-width: 100%;
+}
+
+    }
